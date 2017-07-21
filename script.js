@@ -22,15 +22,14 @@ var router = new VueRouter({
 
 // register
 Vue.component('my-component', {
-  template: '<div>A custom component!</div>'
+  template: '<div>TEst</div>'
 })
 
 
 const app = new Vue({
-  el: '#app',
   router: router,
   data: {
     message: 'Sebastion !'
   }
-})
+}).$mount('#app')
 
