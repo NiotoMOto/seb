@@ -1,0 +1,12 @@
+[v-cloak] {
+  display: none;
+}    
+
+.demo-layout-transparent {
+  /* background: url('../assets/demos/transparent.jpg') center / cover; */
+  background-color: #009688;
+}
+
+.mdl-layout__drawer>.mdl-layout-title { 
+    padding-left: 22px;
+} 
