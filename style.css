@@ -4,9 +4,23 @@
 
 .demo-layout-transparent {
   /* background: url('../assets/demos/transparent.jpg') center / cover; */
-  background-color: #009688;
+  background-color: black;
 }
 
 .mdl-layout__drawer>.mdl-layout-title { 
     padding-left: 22px;
+} 
+
+.card-container {
+  max-width: 700px;
+  justify-content: center;
+}
+
+.card-line {
+  width: 100%;
+  margin-bottom: 15px;
+}  
+
+.card-line .mdl-card__title {
+  height: 300px;
 } 

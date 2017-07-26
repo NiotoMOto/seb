@@ -29,7 +29,12 @@ Vue.component('my-component', {
 const app = new Vue({
   router: router,
   data: {
-    message: 'Sebastion !'
+    items: [
+     {img: './assets/images/img1.jpg', title: 'TItle', description: 'En route pour l\'auvergne' },
+     {img: './assets/images/img2.jpg', title: 'TItle', description: 'En route pour l\'auvergne', color: 'white' },
+     {img: './assets/images/img3.jpg', title: 'TItle', description: 'En route pour l\'auvergne', color: 'white' },
+     {img: './assets/images/img4.jpg', title: 'TItle', description: 'En route pour l\'auvergne', color: 'white' },
+     {img: './assets/images/img5.jpg', title: 'TItle', description: 'En route pour l\'auvergne' } 
+    ] 
   }
 }).$mount('#app')
-
