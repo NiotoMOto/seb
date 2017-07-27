@@ -8,11 +8,8 @@
       </header>
   
       <main class="mdl-layout__content">
-        <div class="page-content mdl-grid card-container">
-          <div class="mdl-cell mdl-cell--12-col">
-            <router-view></router-view> 
-          </div>
-        </div>
+  
+        <router-view></router-view>
   
       </main>
     </div>
@@ -43,19 +40,5 @@ export default {
 
 .mdl-layout__drawer>.mdl-layout-title {
   padding-left: 22px;
-}
-
-.card-container {
-  max-width: 700px;
-  justify-content: center;
-}
-
-.card-line {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.card-line .mdl-card__title {
-  height: 300px;
 }
 </style>
